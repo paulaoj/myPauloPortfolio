@@ -1,0 +1,228 @@
+<header>
+  <nav class="geral-config">
+    <img src="/images/profile.png" class="header-profile-image" />
+    <ul>
+      <li>
+        <a href="#about-me">About Me</a>
+      </li>
+      <li>
+        <a href="#experiences">Experiences</a>
+      </li>
+      <li>
+        <a href="#contact-me">Contact Me</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <div id="dataResult" class="geral-config"></div>
+  <section class="top-main geral-config">
+    <div class="top-main-left">
+      <p>👋Hi! Im Paulo</p>
+      <h3 class="title-text">
+        <span>Front-end, and Back-end developer</span>
+        passionate about creating responsive web applications.
+      </h3>
+      <br>
+      <p>
+        I am a full stack web developer, specializing in creating responsive and efficient applications.
+        I have experience in both front-end and back-end development, using modern frameworks to deliver fast and
+        scalable solutions.
+        My focus is always on improving my skills and bringing innovation to every project I work on. Get to know me
+        better below! 😉
+      </p>
+    </div>
+    <div class="top-main-right">
+      <img src="/images/profile.png" class="top-main-image" />
+      <div class="top-main-animation-one">
+        <img src="/images/css.png" class="top-main-animation-one-image">
+        <img src="/images/html.png" class="top-main-animation-one-image">
+      </div>
+      <div class="top-main-animation-two">
+        <img src="/images/javascript.png" class="top-main-animation-two-image">
+        <img src="/images/node.png" class="top-main-animation-two-image">
+      </div>
+    </div>
+  </section>
+</main>
+<main>
+  <section class="middle-main geral-config" id="about-me">
+    <div class="top-middle">
+      <h3>About Me</h3>
+      <br>
+      <h3 class="title-text">
+        <span>1.5 years online experience,</span>
+        as a front-end and back-end developer
+      </h3>
+      <br>
+      <p>
+        Efficient adaptation to each project's environment. I always seek scalable solutions that fit the specific
+        needs of every application.
+      </p>
+    </div>
+    <br>
+    <div class="bottom-middle">
+      <div class="middle-left-box">
+        <p class="middle-title">Front-end development</p>
+        <p>
+          I work with front-end development using Bootstrap and CSS to create responsive and adaptable interfaces for
+          various devices. Currently, I am enhancing my skills in Angular, expanding my ability to
+          build dynamic and efficient applications with a solid structure to ensure optimized user experiences.
+        </p>
+        <div class="middle-box-footer">
+          <img width="45" src="/images/jquery.png" />
+          <img width="45" src="/images/mongo.png" />
+          <img width="45" src="/images/mysql.png" />
+          <img width="45" src="/images/node.png" />
+        </div>
+      </div>
+      <div class="middle-right-box">
+        <p class="middle-title">Back-end development</p>
+        <p>
+          I work in back-end development using JavaScript and Node.js to create efficient APIs and services. I have
+          experience with Mongoose
+          for handling data in MongoDB, and SQL for working with relational databases, ensuring structured and
+          reliable data management.
+        </p>
+        <div class="middle-box-footer">
+          <img width="45" src="/images/angularjs.png" style="filter: grayscale(100%);" />
+          <img width="45" src="/images/bootstrap.png" />
+          <img width="45" src="/images/css.png" />
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<main>
+  <section class="geral-config main-experience" id="experiences">
+    <div class="top-experience">
+      <h3>Experiences</h3>
+      <br>
+      <h3 class="title-text">
+        Looking for my first professional opportunity to apply my skills,
+        <span>but...</span>
+      </h3>
+    </div>
+    <br>
+    <div class="foot-experience">
+      <img src="/images/nuvemshop.jpeg" alt="">
+      <p>
+        I started a project using APIs to develop external applications that manage an online store on Nuvemshop.
+        The goal is to optimize inventory control, orders, and sales analysis, making the most of the platform's
+        features.
+      </p>
+    </div>
+  </section>
+</main>
+<footer>
+  <section class="geral-config contact-bottom" id="contact-me">
+    <div class="top-bottom">
+      <h3>
+        Contact Me
+      </h3>
+      <br>
+      <h3 class="title-text">
+        <span>Let’s bring your idea to life!</span>
+      </h3>
+      <br>
+      <p>If you liked what you saw and are interested in collaborating, send your message below 😉</p>
+    </div>
+    <form class="post-bottom" method="post">
+      <div class="input-box">
+        <input type="text" id="name">
+        <label for="name">Name</label>
+      </div>
+      <div class="input-box">
+        <input type="email" id="email">
+        <label for="email">Email</label>
+      </div>
+      <div class="input-box textmessage">
+        <textarea id="message"></textarea>
+        <label for="message">Message</label>
+      </div>
+      <div class="input-box">
+        <input type="submit" value="Send" class="sub-buttom">
+      </div>
+    </form>
+    <div class="contacts">
+      <div class="left-icon">
+        <img src="/images/profile.png" alt="">
+      </div>
+      <div class="right-text-contacts">
+        <p>Paulo Henrique
+          <br>
+          Front-end and back-end developer
+        </p>
+        <ul>
+          <li>
+            <img src="/images/email.png" alt="">
+            <a href="mailto:paulosilvajunior2004@gmail.com">paulosilvajunior2004@gmail.com</a>
+          </li>
+          <li>
+            <img src="/images/whatsapp.png" alt="">
+            <a href="tel:81999866390">+55 81 99986-6390</a>
+          </li>
+          <li>
+            <img src="/images/linkedin.png" alt="">
+            <a href="https://www.linkedin.com/in/paulo-silva-004172275/">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</footer>
+
+<script>
+  //AJAX code
+  const dataResult = document.getElementById('dataResult')
+  document.querySelector('.post-bottom').addEventListener('submit', (e) => {
+
+    //Not load webpage
+    e.preventDefault()
+
+    //Catch infos to send to backEnd
+    const data = {
+      nomeuser: document.getElementById('name').value,
+      emailuser: document.getElementById('email').value,
+      messageuser: document.getElementById('message').value
+
+    }
+
+    //Create a fetch to connect 
+    fetch('/sendmessage', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data)
+    })
+      .then(Response => {
+        if (Response.ok) {
+          Response.json().then(data => {
+            var newElement = document.createElement('div')
+            newElement.innerHTML = `
+            <div class='successmsg'>
+              <button>X</button>
+              <p>${data.message}</p>
+            </div>
+            `
+            dataResult.append(newElement)
+            dataResult.style.display = 'block'
+          })
+        }
+        else {
+          Response.json().then(data => {
+            var newElement = document.createElement('div')
+            newElement.innerHTML = `
+            <div class='errormsg'>
+              <button>X</button>
+              <p>${data.message}</p>
+            </div>
+            `
+            dataResult.append(newElement)
+            dataResult.style.display = 'block'
+          })
+        }
+      })
+  })
+</script>
