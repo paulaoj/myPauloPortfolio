@@ -76,4 +76,12 @@ router.post('/sendmessage', (req, res, next) => {
         }
     })
 })
+router.get('/findmessages', (req, res, next) => {
+    Mensagem.find().then((data) => {
+        console.log('Mensagens encontradas!')
+        res.render('messages', {data: data})
+    }).catch((err) => {
+        console.log('Houve um erro.')
+    })
+})
 module.exports = router
